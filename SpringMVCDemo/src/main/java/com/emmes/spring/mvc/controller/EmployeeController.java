@@ -79,6 +79,11 @@ public class EmployeeController {
         return new ModelAndView("redirect:/employees");
     }
 
+    /**List of employess
+     * @param employee
+     * @return
+     * @throws JsonProcessingException
+     */
     @RequestMapping(value = "/employees")
     public ModelAndView listEmployees(@ModelAttribute("employee") Employee employee) throws JsonProcessingException
     {
