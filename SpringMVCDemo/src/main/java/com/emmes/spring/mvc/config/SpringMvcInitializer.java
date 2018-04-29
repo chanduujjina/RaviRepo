@@ -2,7 +2,7 @@ package com.emmes.spring.mvc.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-/**Instead of deployment descriptor Using MVC Intializer
+/**Comment added
  * @author ujjina Chandrasekhar
  *
  */
