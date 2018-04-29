@@ -20,6 +20,10 @@ import com.emmes.spring.mvc.domain.Employee;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**Controller
+ * @author Ujjina Chandrasekhar
+ *
+ */
 @Controller
 //@RequestMapping("/SpringMVCDemo")
 public class EmployeeController {
