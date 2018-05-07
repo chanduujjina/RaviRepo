@@ -90,6 +90,9 @@ public class EmployeeDAOImpl implements EmployeeDao
     }
 
     // Deletion of a particular Employee
+    /* (non-Javadoc)
+     * @see com.emmes.spring.mvc.dao.EmployeeDao#deleteEmployee(int)
+     */
     public void deleteEmployee(int id)
     {
         String sql = "delete from employee where id=?";
